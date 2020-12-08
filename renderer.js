@@ -3,6 +3,8 @@ window.onload = function () {
     const slider = document.querySelector('#slider')
 
     slider.addEventListener('input', _.throttle(function (event) {
-        video.currentTime = event.target.value
+        window.requestAnimationFrame(function () {
+            video.currentTime = event.target.value
+        })
     }, 50))
 }
