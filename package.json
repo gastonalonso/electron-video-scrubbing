@@ -1,12 +1,12 @@
 {
-  "name": "electron-quick-start",
+  "name": "electron-video-scrubbing",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A test for video scrubbing on Electron",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/gastonalonso/electron-video-scrubbing",
   "keywords": [
     "Electron",
     "quick",
@@ -17,6 +17,6 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^11.0.1"
+    "electron": "^11.0.4"
   }
 }
